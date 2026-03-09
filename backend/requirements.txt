@@ -1,0 +1,56 @@
+# FastAPI Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database - MongoDB
+motor==3.3.2
+pymongo==4.6.1
+
+# Database - MySQL (Alternative)
+SQLAlchemy==2.0.25
+pymysql==1.1.0
+alembic==1.13.1
+
+# Authentication
+ldap3==2.9.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Task Queue
+celery==5.3.6
+redis==5.0.1
+
+# AI Integration
+openai==1.10.0
+anthropic==0.8.1
+langchain==0.1.4
+langchain-openai==0.0.5
+
+# Utilities
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+email-validator==2.1.0.post1
+
+# HTTP Client
+httpx==0.26.0
+aiohttp==3.9.1
+
+# Scheduling
+apscheduler==3.10.4
+
+# Logging & Monitoring
+loguru==0.7.2
+prometheus-client==0.19.0
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Security
+cryptography==42.0.1
